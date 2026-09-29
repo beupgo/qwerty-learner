@@ -49,7 +49,7 @@ function Root() {
 
   return (
     <React.StrictMode>
-      <BrowserRouter basename={REACT_APP_DEPLOY_ENV === 'pages' ? '/qwerty-learner' : ''}>
+      <BrowserRouter basename={REACT_APP_DEPLOY_ENV === 'pages' ? '/english-words' : ''}>
         <Suspense fallback={<Loading />}>
           <Routes>
             {isMobile ? (
